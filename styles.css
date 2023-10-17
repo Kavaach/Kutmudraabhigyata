@@ -1,0 +1,20 @@
+
+/* styles.css */
+/* Reset default margin and padding for the entire page */
+body{
+    background-color: beige;
+}
+
+#navbarNav{
+    justify-content:right;
+}
+.overview{
+    padding-top:  4rem;
+}
+.blockimg{
+    padding: 4rem;
+
+}
+#blockchain{
+    max-width: 20%;
+}

@@ -13,8 +13,9 @@ body{
 }
 .blockimg{
     padding: 4rem;
+    
 
 }
-#blockchain{
-    max-width: 20%;
+#btn{
+    background-color: black;
 }

@@ -1,3 +1,30 @@
+// Scroll to Home
+document.addEventListener('DOMContentLoaded', function () {
+  var button = document.getElementById('home');
+
+  button.addEventListener('click', function () {
+    // Select the target section you want to scroll to (e.g., section2)
+    var targetSection = document.getElementByClass('overview');
+
+    // Use the scrollIntoView() method to scroll to the target section
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
+
+// Contact Us
+document.addEventListener('DOMContentLoaded', function () {
+  var button = document.getElementById('contact');
+
+  button.addEventListener('click', function () {
+    // Select the target section you want to scroll to (e.g., section2)
+    var targetSection = document.getElementById('footer');
+
+    // Use the scrollIntoView() method to scroll to the target section
+    targetSection.scrollIntoView({ behavior: 'smooth' });
+  });
+});
+
 
 // Scroll to Search Bar
 document.addEventListener('DOMContentLoaded', function () {
